@@ -1,0 +1,10 @@
+version: 2
+sources:
+  - name: datafeed_shared_schema
+    database: "{{('DI_SALES')}}"
+    schema: dbt_source
+
+    tables:
+      - name: STG_CUSTOMERS
+      - name: STG_PAYMENTS
+      - name: STG_ORDERS
