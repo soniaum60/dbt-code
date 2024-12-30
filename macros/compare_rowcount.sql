@@ -17,9 +17,9 @@
 
         select
             '{{ c_relation }}' as relation_name,
-
-
             count(*) as total_records
         from {{ c_relation }}
   
 {% endmacro %}
+
+
